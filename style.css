@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#header{
+    border: 2px solid rgb(66, 247, 90);
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main{
+    height: inherit;
+    padding: 10px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.weeks{
+    /* border: 2px solid rgb(10, 207, 251); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 3rem;
+    margin: 10px;
+}
+
+.weeks li{
+    border: 2px solid rgb(249, 2, 229);
+    color: rgb(63, 42, 165);
+    height: inherit;
+    width: 11rem;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+
+/* .container-header{
+    border: 2px solid rgb(10, 207, 251);
+    width: 100%;
+    height: 15%;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+/* .table{
+    height: 25rem;
+    width: 100%;
+    border: 2px solid rgb(58, 4, 254);
+}
+
+.head-row th{
+    border: 2px solid rgb(232, 248, 3);
+    height: 40px;
+    width: 40px;
+
+}
+
+.row1 td{
+    border: 2px solid rgb(246, 3, 214);
+    height: 80px;
+    width: 40px;
+} */
+
+/* Buttons */
+
+.prev-btn{
+    border: none;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    background-color: rgb(181, 249, 249);
+
+}
+
+.next-btn{
+    border: none;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    background-color: rgb(181, 249, 249);
+}
